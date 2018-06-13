@@ -76,16 +76,16 @@ let getAllData= (titleName,numbers)=>{
 	console.log("got the year" + numbers);
 	//for the title code
 	if(titleName !== 'undefined' && numbers == 1){
-		links+=`http://www.omdbapi.com/?t=${titleName}&apikey=c0687617`;
+		links+=`https://www.omdbapi.com/?t=${titleName}&apikey=c0687617`;
 		console.log("got the title" + links);
 	
 	}
 	else if(titleName !== 'undefined' && numbers !== 1 && numbers !== 3){
-		links+=`http://www.omdbapi.com/?t=${titleName}&y=${numbers}&apikey=c0687617`;
+		links+=`https://www.omdbapi.com/?t=${titleName}&y=${numbers}&apikey=c0687617`;
 		console.log("got the title and Year" + links);
 	}
 	else if(titleName !== 'undefined' && numbers == 3){
-		links+=`http://www.omdbapi.com/?i=${titleName}&apikey=c0687617`;
+		links+=`https://www.omdbapi.com/?i=${titleName}&apikey=c0687617`;
 		console.log("got the ID" + links);
 	}
 	else{
