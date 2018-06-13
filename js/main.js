@@ -96,6 +96,7 @@ let getAllData= (titleName,numbers)=>{
 	
 	$.ajax({
 		type:"GET",
+		async:true,
 		url:links,
 		success:(response)=>{
 			/*==================CONTENT SHOW AND HIDE START FROM HERE=====================*/
