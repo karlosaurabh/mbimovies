@@ -90,7 +90,7 @@ let getAllData= (titleName,numbers)=>{
 	}
 	else{
 		alert("Sorry you can't access this")
-	}
+	} 
 
 
 	
